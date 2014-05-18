@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Auxiliary\vbm.cpp">
+      <Filter>Auxilary</Filter>
+    </ClCompile>
+    <ClCompile Include="Auxiliary\vdds.cpp">
+      <Filter>Auxilary</Filter>
+    </ClCompile>
+    <ClCompile Include="Auxiliary\libtarga.cpp">
+      <Filter>Auxilary</Filter>
+    </ClCompile>
+    <ClCompile Include="Auxiliary\loadtexture.cpp">
+      <Filter>Auxilary</Filter>
+    </ClCompile>
+    <ClCompile Include="WinApi\WinParent.cpp">
+      <Filter>WinApi</Filter>
+    </ClCompile>
+    <ClCompile Include="ZGL\zglLoaderWin.c">
+      <Filter>ZGL</Filter>
+    </ClCompile>
+    <ClCompile Include="ZGL\zglImageFormat.cpp">
+      <Filter>ZGL</Filter>
+    </ClCompile>
+    <ClCompile Include="ZGL\zglCoreContextWin.cpp">
+      <Filter>ZGL</Filter>
+    </ClCompile>
+    <ClCompile Include="ZGL\zglState.cpp">
+      <Filter>ZGL</Filter>
+    </ClCompile>
+    <ClCompile Include="ZGL\zglWindowWin.cpp">
+      <Filter>ZGL</Filter>
+    </ClCompile>
+    <ClCompile Include="ZGL\zglProgram.cpp">
+      <Filter>ZGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Examples\ProducerEx01.cpp">
+      <Filter>Examples</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Auxiliary\vmath.h">
+      <Filter>Auxilary</Filter>
+    </ClInclude>
+    <ClInclude Include="Auxiliary\vbm.h">
+      <Filter>Auxilary</Filter>
+    </ClInclude>
+    <ClInclude Include="Auxiliary\vermilion.h">
+      <Filter>Auxilary</Filter>
+    </ClInclude>
+    <ClInclude Include="Auxiliary\libtarga.h">
+      <Filter>Auxilary</Filter>
+    </ClInclude>
+    <ClInclude Include="GL\glcorearb.h">
+      <Filter>GL</Filter>
+    </ClInclude>
+    <ClInclude Include="WinApi\WinParent.h">
+      <Filter>WinApi</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes\Teapot.h">
+      <Filter>Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="GL\glxext.h">
+      <Filter>GL</Filter>
+    </ClInclude>
+    <ClInclude Include="GL\wglext.h">
+      <Filter>GL</Filter>
+    </ClInclude>
+    <ClInclude Include="ZGL\zglContext.h">
+      <Filter>ZGL</Filter>
+    </ClInclude>
+    <ClInclude Include="ZGL\zglLoaderWin.h">
+      <Filter>ZGL</Filter>
+    </ClInclude>
+    <ClInclude Include="ZGL\zglImageFormat.h">
+      <Filter>ZGL</Filter>
+    </ClInclude>
+    <ClInclude Include="ZGL\zglTypes.h">
+      <Filter>ZGL</Filter>
+    </ClInclude>
+    <ClInclude Include="ZGL\zglWindow.h">
+      <Filter>ZGL</Filter>
+    </ClInclude>
+    <ClInclude Include="ZGL\zglState.h">
+      <Filter>ZGL</Filter>
+    </ClInclude>
+    <ClInclude Include="ZGL\zglProducer.h">
+      <Filter>ZGL</Filter>
+    </ClInclude>
+    <ClInclude Include="ZGL\zglProgram.h">
+      <Filter>ZGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Examples\ProducerEx01.h">
+      <Filter>Examples</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\triangles.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\triangles.vert">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Auxilary">
+      <UniqueIdentifier>{81780731-4c6d-46f6-a532-b7147232c183}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Examples">
+      <UniqueIdentifier>{c573cba7-40c7-459a-8b5b-a3b46a5aa1c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GL">
+      <UniqueIdentifier>{adc6975b-2740-4f1b-9684-e963ea254809}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{5efa31ec-3eb6-41c6-a05e-f956edf7d8a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WinApi">
+      <UniqueIdentifier>{71e8c5f0-c8af-4f77-ac51-9d9f2c45d6fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shapes">
+      <UniqueIdentifier>{92916d47-08f6-4136-a4f5-f00a5e2ca249}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZGL">
+      <UniqueIdentifier>{a93c0096-37d6-4e98-a6fd-5cc841998e20}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

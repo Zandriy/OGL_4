@@ -1,0 +1,7 @@
+Debug/
+Release/
+x64/
+oglpg-8th-edition/
+*.sdf
+*.v11.suo
+*.opensdf
